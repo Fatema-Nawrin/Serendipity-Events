@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serendipity Convention Center</title>
+    <title>Serendipity Events</title>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- bootstrap stylesheet  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -15,17 +18,17 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light d-flex">
+        <nav class="navbar navbar-expand-lg navbar-light my-4 pb-4">
             <div class="container flex-nowrap">
-                <a class="navbar-brand fw-bold" href=" #">Serendipity Convention Center</a>
+                <a class="navbar-brand md-fs-1 fw-bold" href=" #">Serendipity Events</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item mx-2">
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item mx-2">
@@ -43,14 +46,98 @@
         </nav>
     </header>
     <main>
+        <!-- slider  -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide-1.jpg" class="d-block w-auto" alt="...">
+                        <div class="carousel-caption caption-center d-md-block">
+                            <div>
+                                <h1 class="fw-bold display-5 px-lg-5">The perfect venue for your
+                                    next event</h1>
+                                <p class="px-lg-5">Feel relaxed at your own party! Our personal touch and professional
+                                    attitude will ensure that you create everlasting
+                                    memories.</p>
+                                <a class="btn btn-light"
+                                    href="https://www.pexels.com/photo/white-ceramic-plates-on-table-4234527/"
+                                    target="_blank" role="button">Book Now</a>
 
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide-2.jpg" class="d-block w-auto" alt="...">
+                        <div class="carousel-caption caption-center d-md-block">
+                            <div>
+                                <h1 class="fw-bold display-5  px-lg-5">Come here to plan </h1>
+                                <p class="px-lg-5">We are here to make your dream wedding into perfect reality.</p>
+                                <a class="btn btn-light"
+                                    href="https://www.pexels.com/photo/bride-and-groom-exchanging-rings-during-wedding-3769594/"
+                                    target="_blank" role="button">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner.png" class="d-block w-auto" alt="...">
+                        <div class="carousel-caption caption-center d-md-block">
+                            <div>
+                                <h1 class="fw-bold display-5  px-lg-5"> A flawless event for your special day</h1>
+                                <p class="px-lg-5">We will help to create memories that
+                                    you and your loved ones will cherish for a lifetime.</p>
+                                <a class="btn btn-light" href="https://unsplash.com/photos/JFAPl7brL6U" target="_blank"
+                                    role="button">Book Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- packages -->
+        <section>
+            <div class="container">
+                <h1 class="fw-bold text-center">Our Packages</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                        <h2>$300</h2>
+                        <h3>Business fair</h3>
+                        <p>For most businesses event
+                            like book fair, craft fair.</p>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
     <!-- bootstrap script  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
