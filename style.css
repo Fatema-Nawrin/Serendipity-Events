@@ -17,6 +17,16 @@
     bottom: 0;
     top:50%;
 }
+.wedding-special{
+    transform: translateY(-10%);
+    background-color:#9AD0EC;
+    border-radius: 30px;
+    height:100%;
+}
+.button-style{
+background-color:#9AD0EC;
+color:#135c81;
+}
 footer{
     font-family: 'Manrope', sans-serif;
 }
