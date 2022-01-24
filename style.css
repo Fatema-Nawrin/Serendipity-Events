@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@400;500;600;700&display=swap');
-
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+/* carousel style */
 .carousel .carousel-item {
     height: 500px;
 }
@@ -17,6 +18,7 @@
     bottom: 0;
     top:50%;
 }
+/* special card  */
 .wedding-special{
     transform: translateY(-10%);
     background-color:#9AD0EC;
@@ -24,8 +26,11 @@
     height:100%;
 }
 .button-style{
-background-color:#9AD0EC;
-color:#135c81;
+    background-color:#6aa7c5; 
+    color:white;
+}
+.toast-style{
+    background-color:#599fc2; 
 }
 .footer-style{
     font-family: 'Manrope', sans-serif;
